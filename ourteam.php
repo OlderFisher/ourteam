@@ -1,13 +1,15 @@
 <?php
 /**
  * Plugin Name: Elementor Our Team Addon
- * Description: Simple hello world widgets for Elementor.
+ * Description: Simple  widget for Elementor.
  * Version:     1.0.0
- * Author:      Elementor Developer
+ * Author:      Oleksandr Lilik
  * Author URI:  https://developers.elementor.com/
- * Text Domain: elementor-addon
+ * Text Domain: ourteam
  */
 
+
+load_plugin_textdomain('ourteam', false, '/languages/');
 function register_hello_world_widget($widgets_manager)
 {
 

@@ -236,7 +236,7 @@ class Elementor_Our_Team_Widget extends \Elementor\Widget_Base
                     ],
                 ],
                 'selectors' => [
-                    '{{WRAPPER}} .elementor-image-box-wrapper' => 'text-align: {{VALUE}};',
+                    '{{WRAPPER}} .elementor-our-team-box-wrapper' => 'text-align: {{VALUE}};',
                 ],
             ]
         );
@@ -270,10 +270,10 @@ class Elementor_Our_Team_Widget extends \Elementor\Widget_Base
                     ],
                 ],
                 'selectors' => [
-                    '{{WRAPPER}}.elementor-position-right .elementor-image-box-img' => 'margin-left: {{SIZE}}{{UNIT}};',
-                    '{{WRAPPER}}.elementor-position-left .elementor-image-box-img' => 'margin-right: {{SIZE}}{{UNIT}};',
-                    '{{WRAPPER}}.elementor-position-top .elementor-image-box-img' => 'margin-bottom: {{SIZE}}{{UNIT}};',
-                    '(mobile){{WRAPPER}} .elementor-image-box-img' => 'margin-bottom: {{SIZE}}{{UNIT}};',
+                    '{{WRAPPER}}.elementor-position-right .elementor-our-team-box-img' => 'margin-left: {{SIZE}}{{UNIT}};',
+                    '{{WRAPPER}}.elementor-position-left .elementor-our-team-box-img' => 'margin-right: {{SIZE}}{{UNIT}};',
+                    '{{WRAPPER}}.elementor-position-top .elementor-our-team-box-img' => 'margin-bottom: {{SIZE}}{{UNIT}};',
+                    '(mobile){{WRAPPER}} .elementor-our-team-box-img' => 'margin-bottom: {{SIZE}}{{UNIT}};',
                 ],
             ]
         );
@@ -301,7 +301,7 @@ class Elementor_Our_Team_Widget extends \Elementor\Widget_Base
                     ],
                 ],
                 'selectors' => [
-                    '{{WRAPPER}} .elementor-image-box-wrapper .elementor-image-box-img' => 'width: {{SIZE}}{{UNIT}};',
+                    '{{WRAPPER}} .elementor-our-team-box-wrapper .elementor-our-team-box-img' => 'width: {{SIZE}}{{UNIT}};',
                 ],
             ]
         );
@@ -310,7 +310,7 @@ class Elementor_Our_Team_Widget extends \Elementor\Widget_Base
             Group_Control_Border::get_type(),
             [
                 'name' => 'image_border',
-                'selector' => '{{WRAPPER}} .elementor-image-box-img img',
+                'selector' => '{{WRAPPER}} .elementor-our-team-box-img img',
                 'separator' => 'before',
             ]
         );
@@ -323,7 +323,7 @@ class Elementor_Our_Team_Widget extends \Elementor\Widget_Base
                 'size_units' => [ 'px', '%', 'em', 'rem', 'custom' ],
                 'separator' => 'after',
                 'selectors' => [
-                    '{{WRAPPER}} .elementor-image-box-img img' => 'border-radius: {{SIZE}}{{UNIT}};',
+                    '{{WRAPPER}} .elementor-our-team-box-img img' => 'border-radius: {{SIZE}}{{UNIT}};',
                 ],
             ]
         );
@@ -349,7 +349,7 @@ class Elementor_Our_Team_Widget extends \Elementor\Widget_Base
             Group_Control_Css_Filter::get_type(),
             [
                 'name' => 'css_filters',
-                'selector' => '{{WRAPPER}} .elementor-image-box-img img',
+                'selector' => '{{WRAPPER}} .elementor-our-team-box-img img',
             ]
         );
 
@@ -366,7 +366,7 @@ class Elementor_Our_Team_Widget extends \Elementor\Widget_Base
                     ],
                 ],
                 'selectors' => [
-                    '{{WRAPPER}} .elementor-image-box-img img' => 'opacity: {{SIZE}};',
+                    '{{WRAPPER}} .elementor-our-team-box-img img' => 'opacity: {{SIZE}};',
                 ],
             ]
         );
@@ -386,7 +386,7 @@ class Elementor_Our_Team_Widget extends \Elementor\Widget_Base
                     ],
                 ],
                 'selectors' => [
-                    '{{WRAPPER}} .elementor-image-box-img img' => 'transition-duration: {{SIZE}}s',
+                    '{{WRAPPER}} .elementor-our-team-box-img img' => 'transition-duration: {{SIZE}}s',
                 ],
             ]
         );
@@ -404,7 +404,7 @@ class Elementor_Our_Team_Widget extends \Elementor\Widget_Base
             Group_Control_Css_Filter::get_type(),
             [
                 'name' => 'css_filters_hover',
-                'selector' => '{{WRAPPER}}:hover .elementor-image-box-img img',
+                'selector' => '{{WRAPPER}}:hover .elementor-our-team-box-img img',
             ]
         );
 
@@ -421,7 +421,7 @@ class Elementor_Our_Team_Widget extends \Elementor\Widget_Base
                     ],
                 ],
                 'selectors' => [
-                    '{{WRAPPER}}:hover .elementor-image-box-img img' => 'opacity: {{SIZE}};',
+                    '{{WRAPPER}}:hover .elementor-our-team-box-img img' => 'opacity: {{SIZE}};',
                 ],
             ]
         );
@@ -461,7 +461,7 @@ class Elementor_Our_Team_Widget extends \Elementor\Widget_Base
                     ],
                 ],
                 'selectors' => [
-                    '{{WRAPPER}} .elementor-image-box-title' => 'margin-bottom: {{SIZE}}{{UNIT}};',
+                    '{{WRAPPER}} .elementor-our-team-box-title' => 'margin-bottom: {{SIZE}}{{UNIT}};',
                 ],
             ]
         );
@@ -473,7 +473,7 @@ class Elementor_Our_Team_Widget extends \Elementor\Widget_Base
                 'type' => Controls_Manager::COLOR,
                 'default' => '',
                 'selectors' => [
-                    '{{WRAPPER}} .elementor-image-box-title' => 'color: {{VALUE}};',
+                    '{{WRAPPER}} .elementor-our-team-box-title' => 'color: {{VALUE}};',
                 ],
                 'global' => [
                     'default' => Global_Colors::COLOR_PRIMARY,
@@ -485,7 +485,7 @@ class Elementor_Our_Team_Widget extends \Elementor\Widget_Base
             Group_Control_Typography::get_type(),
             [
                 'name' => 'title_typography',
-                'selector' => '{{WRAPPER}} .elementor-image-box-title',
+                'selector' => '{{WRAPPER}} .elementor-our-team-box-title',
                 'global' => [
                     'default' => Global_Typography::TYPOGRAPHY_PRIMARY,
                 ],
@@ -496,7 +496,7 @@ class Elementor_Our_Team_Widget extends \Elementor\Widget_Base
             Group_Control_Text_Stroke::get_type(),
             [
                 'name' => 'title_stroke',
-                'selector' => '{{WRAPPER}} .elementor-image-box-title',
+                'selector' => '{{WRAPPER}} .elementor-our-team-box-title',
             ]
         );
 
@@ -504,7 +504,7 @@ class Elementor_Our_Team_Widget extends \Elementor\Widget_Base
             Group_Control_Text_Shadow::get_type(),
             [
                 'name' => 'title_shadow',
-                'selector' => '{{WRAPPER}} .elementor-image-box-title',
+                'selector' => '{{WRAPPER}} .elementor-our-team-box-title',
             ]
         );
 
@@ -524,7 +524,7 @@ class Elementor_Our_Team_Widget extends \Elementor\Widget_Base
                 'type' => Controls_Manager::COLOR,
                 'default' => '',
                 'selectors' => [
-                    '{{WRAPPER}} .elementor-image-box-description' => 'color: {{VALUE}};',
+                    '{{WRAPPER}} .elementor-our-team-box-description' => 'color: {{VALUE}};',
                 ],
                 'global' => [
                     'default' => Global_Colors::COLOR_TEXT,
@@ -536,7 +536,7 @@ class Elementor_Our_Team_Widget extends \Elementor\Widget_Base
             Group_Control_Typography::get_type(),
             [
                 'name' => 'description_typography',
-                'selector' => '{{WRAPPER}} .elementor-image-box-description',
+                'selector' => '{{WRAPPER}} .elementor-our-team-box-description',
                 'global' => [
                     'default' => Global_Typography::TYPOGRAPHY_TEXT,
                 ],
@@ -547,7 +547,7 @@ class Elementor_Our_Team_Widget extends \Elementor\Widget_Base
             Group_Control_Text_Shadow::get_type(),
             [
                 'name' => 'description_shadow',
-                'selector' => '{{WRAPPER}} .elementor-image-box-description',
+                'selector' => '{{WRAPPER}} .elementor-our-team-box-description',
             ]
         );
 
@@ -562,7 +562,7 @@ class Elementor_Our_Team_Widget extends \Elementor\Widget_Base
 
         $has_content = ! Utils::is_empty($settings['title_text']) || ! Utils::is_empty($settings['description_text']);
 
-        $html = '<div class="elementor-image-box-wrapper">';
+        $html = '<div class="elementor-our-team-box-wrapper">';
 
         if (! empty($settings['link']['url'])) {
             $this->add_link_attributes('link', $settings['link']);
@@ -575,14 +575,14 @@ class Elementor_Our_Team_Widget extends \Elementor\Widget_Base
                 $image_html = '<a ' . $this->get_render_attribute_string('link') . ' tabindex="-1">' . $image_html . '</a>';
             }
 
-            $html .= '<figure class="elementor-image-box-img">' . $image_html . '</figure>';
+            $html .= '<figure class="elementor-our-team-box-img">' . $image_html . '</figure>';
         }
 
         if ($has_content) {
-            $html .= '<div class="elementor-image-box-content">';
+            $html .= '<div class="elementor-our-team-box-content">';
 
             if (! Utils::is_empty($settings['title_text'])) {
-                $this->add_render_attribute('title_text', 'class', 'elementor-image-box-title');
+                $this->add_render_attribute('title_text', 'class', 'elementor-our-team-box-title');
 
                 $this->add_inline_editing_attributes('title_text', 'none');
 
@@ -596,7 +596,7 @@ class Elementor_Our_Team_Widget extends \Elementor\Widget_Base
             }
 
             if (! Utils::is_empty($settings['description_text'])) {
-                $this->add_render_attribute('description_text', 'class', 'elementor-image-box-description');
+                $this->add_render_attribute('description_text', 'class', 'elementor-our-team-box-description');
 
                 $this->add_inline_editing_attributes('description_text');
 
@@ -617,7 +617,7 @@ class Elementor_Our_Team_Widget extends \Elementor\Widget_Base
     {
         ?>
         <#
-        var html = '<div class="elementor-image-box-wrapper">';
+        var html = '<div class="elementor-our-team-box-wrapper">';
 
             if ( settings.image.url ) {
             var image = {
@@ -636,13 +636,13 @@ class Elementor_Our_Team_Widget extends \Elementor\Widget_Base
             imageHtml = '<a href="' + _.escape( settings.link.url ) + '" tabindex="-1">' + imageHtml + '</a>';
             }
 
-            html += '<figure class="elementor-image-box-img">' + imageHtml + '</figure>';
+            html += '<figure class="elementor-our-team-box-img">' + imageHtml + '</figure>';
             }
 
             var hasContent = !! ( settings.title_text || settings.description_text );
 
             if ( hasContent ) {
-            html += '<div class="elementor-image-box-content">';
+            html += '<div class="elementor-our-team-box-content">';
 
                 if ( settings.title_text ) {
                 var title_html = settings.title_text,
@@ -652,7 +652,7 @@ class Elementor_Our_Team_Widget extends \Elementor\Widget_Base
                 title_html = '<a href="' + _.escape( settings.link.url ) + '">' + title_html + '</a>';
                 }
 
-                view.addRenderAttribute( 'title_text', 'class', 'elementor-image-box-title' );
+                view.addRenderAttribute( 'title_text', 'class', 'elementor-our-team-box-title' );
 
                 view.addInlineEditingAttributes( 'title_text', 'none' );
 
@@ -660,7 +660,7 @@ class Elementor_Our_Team_Widget extends \Elementor\Widget_Base
             }
 
             if ( settings.description_text ) {
-            view.addRenderAttribute( 'description_text', 'class', 'elementor-image-box-description' );
+            view.addRenderAttribute( 'description_text', 'class', 'elementor-our-team-box-description' );
 
             view.addInlineEditingAttributes( 'description_text' );
 
