@@ -10,11 +10,11 @@
 
 
 load_plugin_textdomain('ourteam', false, '/languages/');
-function register_hello_world_widget($widgets_manager)
+function register_our_team_widget($widgets_manager): void
 {
 
     require_once(__DIR__ . '/widgets/our-team-widget.php');
 
     $widgets_manager->register(new \Elementor_Our_Team_Widget());
 }
-add_action('elementor/widgets/register', 'register_hello_world_widget');
+add_action('elementor/widgets/register', 'register_our_team_widget');
